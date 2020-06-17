@@ -15,7 +15,7 @@
 <?php 
 include("../conexao/conexao.php");
 
-	$nome_user = $_POST['nome_user'];
+	
 	$tipo_user = $_POST['tipo_user'];
 	$cpf_user = $_POST['cpf_user'];
 	$tel_user = $_POST['tel_user'];
