@@ -1,0 +1,203 @@
+/*AREA OFERTAS*/
+
+	
+section#area_ofertas{
+	position:relative;
+	margin-top:40px;	
+	background-color:#F90;
+	}
+div#ofertas{
+	position:relative;
+	margin-bottom:20px;
+	width:98%;
+	height:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:1%;
+	margin-right:1%;
+		
+	}
+h1.texto_anuncio{
+	position:relative;
+	text-align:center;
+	margin-bottom:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#900;
+	background-color:#CDCDCD;
+	text-transform:uppercase;
+	font-size:18px;
+	font-family:arial;
+	width:100%;
+	
+}
+
+ul.prod_ofertas{
+	position:relative;
+	list-style-type:none;
+	text-align:center;
+	}
+ul.prod_ofertas li.item_produto{
+	display:inline-block;
+	width:315px;
+	height:auto;
+	margin-bottom:25px;
+	margin-left:2px;
+	}
+ul.prod_ofertas li.item_produto ul.att_item li{
+	list-style-type:none;		
+	}
+
+/*ESTILIZAÇÃO ATRIBUTOS DOS PRODUTOS*/	
+ul.att_item li.nome_prod{
+	position:relative;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	/*background-image:url(../imagens/marcador_produtos.jpg);*/
+	background-color:#FFF;
+	border-top:10px solid #900;
+	color:#900;
+	text-shadow:1px 1px 1px #FFF;
+	padding-bottom:15px;
+	padding-top:5px;
+	padding-left:2px;
+	padding-right:2px;
+	height:30px;
+	
+	}
+ul.att_item li.desconto{
+	text-align:left;
+	padding-left:10px;
+	position:relative;
+	font-family:arial;
+	font-size:15px;
+	background-color:#CCC;		
+	color:#900;
+	padding-bottom:5px;
+	padding-top:5px;
+	}
+	ul.att_item li.desconto:hover{
+		font-size:16px;
+		font-weight:bold;
+		background-color:#CCC;
+		color:#900;
+		transition-duration:0.5s;	
+		}
+ul.att_item li.img_prod{
+	background-color:#FFF;
+	padding-bottom:5px;	
+	}		
+ul.att_item li.img_prod img{
+	position:relative;
+	text-align:center;
+	width:auto;
+	height:auto;
+	max-width:305px;
+	max-height:200px;
+	min-height:200px;
+	
+	}
+ul.att_item li.preco_original{
+	position:relative;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-align:left;
+	color:#900;
+	background-color:#CCC;
+	padding-left:10px;
+	padding-top:5px;
+	}
+	
+	ul.att_item li.preco_original span.valor_original{
+		font-size:13px;
+		font-family:Arial;
+		text-decoration:line-through;			
+		}
+		
+ul.att_item li.preco_desconto{
+	position:relative;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-align:left;
+	color:#030;	
+	background-color:#CCC;
+	padding-bottom:5px;
+	padding-left:10px;	
+	}
+	
+	ul.att_item li.preco_desconto span.valor_final{
+		font-size:20px;
+		font-family:Arial;
+		}
+ul.att_item li.botao{
+	background-color:#FFF;
+	padding-bottom:5px;
+	padding-top:5px;
+	}	
+ul.att_item li.botao button{
+	padding:5px;
+	width:50%;
+	background-color:#FFF;
+	color:#900;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	border:1px solid #999;
+	border-radius:5px;
+	cursor:pointer;			
+	}
+
+ul.att_item li.botao button a{
+	color:#FFF;
+	text-decoration:none;	
+	}	
+	ul.att_item li.botao button:hover{
+		color:#FFF;
+		background-color:#900;	
+		text-shadow:none;
+		border:1px solid #900;	
+		}			
+@media only screen and (max-width: 640px){				
+	ul.att_item li.nome_prod{
+	font-size:13px;	
+		}
+	ul.att_item li.desconto{
+	font-size:13px;	
+		}
+	ul.att_item li.img_prod img{
+	max-width:265px;
+	max-height:160px;				
+	}	
+	ul.att_item li.preco_original span.valor_original{
+	font-size:12spx;	
+		}
+	ul.att_item li.preco_desconto span.valor_final{
+	font-size:15px;	
+		}
+	
+	ul.att_item li.botao{
+	padding-bottom:5px;
+	padding-top:5px;
+	}	
+	ul.att_item li.botao button{
+	padding:3px;
+	font-size:12px;	
+		}		
+}
+@media only screen and (max-width: 450px){
+	ul.prod_ofertas li.item_produto{
+	width:280px;
+	margin-left:0px;	
+		}
+
+	ul.prod_ofertas li.item_produto:hover{
+		width:278px;
+		}	
+	
+}
+	
+	

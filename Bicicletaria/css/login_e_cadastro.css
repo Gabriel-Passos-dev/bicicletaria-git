@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+section.main_area_user{
+	position:relative;
+	width:99%;
+	margin-left:0.5%;
+	height:600px;
+	padding-bottom:10px;
+	}
+img.img_area_user{
+	position:relative;
+	width:500px;
+	height:260px;
+	margin-top:30px;
+	}	
+section#area_login{	
+	position:relative;
+	float:left;
+	width:240px;
+	height:300px;
+	margin-left:3%;
+	margin-top:-250px;
+	margin-bottom:5%;
+	padding-right:15px;
+	padding-left:10px;
+	padding-bottom:15px;
+	border-top:20px solid #900;
+	border-bottom:5px solid #900;	
+	}
+
+aside#area_cadastro{
+	position:relative;
+	float:right;
+	width:240px;
+	height:520px;
+	margin-right:3%;
+	margin-top:-250px;
+	margin-bottom:25px;
+	padding-right:15px;
+	padding-left:10px;
+	padding-bottom:15px;
+	border-top:20px solid #900;
+	border-bottom:5px solid #900;	
+	}
+	
+h1.titulo{
+	position:relative;
+	margin-top:10px;
+	margin-bottom:30px;	
+	font-size:17px;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+	color:#F60;
+	background-color:#E1E1E1;
+	padding:10px;
+	}	
+/*AREA CADASTRO E LOGIN*/	
+button#button_submit{
+	position:relative;	
+	margin-top:10%;	
+	border-radius:5px;
+	border:1px solid #999;
+	background-color:#FFF;
+	color:#900;
+	font-size:14px;
+	font-weight:bold;
+	font-family:arial;
+	letter-spacing:0.5px;
+	cursor:pointer;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	}
+	button#button_submit:hover{
+		color:#FFF;
+		background-color:#900;
+		border:none;
+		}	
+label.campo_form{
+	position:relative;
+	font-family:arial;
+	font-size:15px;
+	color:#900;
+	text-shadow:none;	
+	}		
+input.form-control{
+	width:240px;
+	padding:8px;
+	margin-top:1px;
+	margin-bottom:5px;
+	font-size:14px;
+	font-family:arial;
+	color:#000;
+	background-color:#E1E1E1;
+	border:1px solid #CCC;
+	}
+
+	
+label.campo_form{
+	color:#000;
+	font-weight:normal;	
+	}		
+div.row, nav#barra_pesquisa, nav#barra_pesquisa{
+	position:relative;	
+	font-family:arial;
+	font-size:14px;	
+	color:#900;
+	font-weight:bold;	
+	}
+.form-control:focus, nav#barra_pesquisa:focus{
+	border:1px solid #600;
+}
+@media only screen and (max-width: 1200px){
+	img.img_area_user{
+	width:320px;
+	height:160px;
+	}
+	section#area_login{	
+	margin-top:-150px;
+	}
+	aside#area_cadastro{
+	margin-top:-150px;
+		}
+}
+
+@media only screen and (max-width: 950px){
+	img.img_area_user{
+	height:280px;
+	width:80%;
+	margin-left:5%;
+	margin-right:5%;
+	}
+	aside#area_cadastro{
+	width:95%;
+	max-width:none;
+	margin:0px;
+	padding:0px;
+	margin-bottom:20px;
+	margin-top:15px;
+	padding-bottom:10px;
+	padding-left:5%;
+	padding-right:0px;
+	border:none;
+		}
+	section#area_login{
+	width:95%;
+	max-width:none;
+	margin:0px;
+	padding:0px;
+	margin-top:20px;
+	padding-bottom:20px;
+	padding-left:5%;
+	border:none;
+		}
+		input.form-control{
+			width:90%;
+			margin-right:5%;	
+			}
+	button#button_submit{
+		margin-top:15px;	
+		}		
+	}
+@media only screen and (max-width: 450px){
+	img.img_area_user{
+	height:150px;
+	}
+	label.campo_form, {
+	margin-left:0%;
+	}
+	input.form-control{
+	width:85%;	
+	}
+}

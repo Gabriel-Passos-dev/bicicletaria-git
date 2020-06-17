@@ -1,0 +1,310 @@
+*{
+	margin:0px;
+	padding:0px;	
+	}
+
+body{
+	width:100%;
+	}
+
+/*HEADER*/
+header{
+	width:100%;
+	z-index:1;
+	margin-bottom:15px;
+	}
+	
+/*LOGO*/	
+figure#logo{
+	text-align:left;
+	position:relative;	
+	}	
+img#logo{
+	width:180px;
+	height:35px;
+	margin-top:10px;
+	margin-left:20%;	
+	margin-bottom:20px;
+	 }
+/*BARRA DE PESQUISA*/
+table#area_user{
+	position:relative;
+	width:95%;
+	height:80px;
+	margin-left:2%;
+	margin-right:2%;
+	padding-top:5px;
+	}
+
+table#area_user .area_pesquisa{
+	width:55%;
+	text-align:center;
+	max-height:20px;	
+	}	
+table#area_user .area_login_register{
+	width:auto;
+	}	
+nav#barra_pesquisa{
+	position:relative;
+	color:#033;
+	background-color:#F90;
+	padding-bottom:5px;
+	max-height:80px;
+	height:auto;
+	}	
+
+nav#barra_pesquisa form.form_pesquisa input[type=text]{
+	padding-top:10px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:10px;
+	position:relative;
+	margin-left:5px;
+	width:95%;
+	font-size:14px;
+	font-family:arial;	
+	letter-spacing:0.5px;
+	border:none;
+	background-color:#FFF;
+	height:21.5px;
+	}
+button.button_pesquisa{
+	width:50px;
+	cursor:pointer;
+	margin-left:-10px;
+	border:none;
+	}
+			
+/*BOTÃO LOGAR E CADASTRAR*/
+.botao_login_cadastro{
+	position:relative;	
+	cursor:pointer;			
+	color:#900;
+	border:none;
+	background-color:#FFF;
+	border-radius:5px;	
+	font-size:15px;
+	font-family:arial;
+	letter-spacing:0.5px;
+	padding-top:15px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:15px;
+	width:auto;
+	font-weight:bold;
+	}
+.botao_login_cadastro:hover{
+	background-color:#900;
+	color:#FFF;
+	transition:0.5s ease-in-out;
+	}	
+.botao_dados_user{
+	position:relative;
+	color:#FFF;
+	cursor:pointer;	
+	font-size:15px;
+	font-family:arial;
+	margin-left:5px;
+	margin-right:5px;
+	height:auto;
+	padding:0px;
+	}	
+.botao_login_cadastro a{
+	text-decoration:none;	
+	}	
+
+/*TABLE CARRINHO DE COMPRAS*/
+table#dados_user{
+	position:relative;
+	background-color:#FFF;
+	cursor:default;
+	}
+	table#dados_user td.bem_vindo{
+		padding-right:10px;
+		padding-left:5px;
+		border-right:1px dashed #FFF;		
+		}
+
+table#dados_user td.carrinho_compras{
+	padding-left:10px;
+	padding-right:5px;
+		}
+table#dados_user td.carrinho_compras p.preco_carrinho{
+	font-size:14px;
+	color:#900;
+	text-align:center;
+	font-weight:normal;
+	cursor:pointer;	
+	}	
+table#dados_user td.carrinho_compras img{
+	width:35px;
+	height:30px;
+	margin-bottom:5px;
+	cursor:pointer;
+	border:1px solid #CCC;
+	border-radius:5px;
+	padding:5px;	
+	
+	}
+table#dados_user button.deslogar, table#dados_user button.meus_dados{
+	padding:2px;	
+	background-color:#fff;
+	color:#900;	
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	border:1px solid #CCC;
+	border-radius:5px;
+	margin-top:0px;
+	margin-bottom:4px;
+	cursor:pointer;
+	padding:5px;
+	}	
+table#dados_user button.deslogar:hover, table#dados_user button.meus_dados:hover, table#dados_user td.carrinho_compras img:hover{
+	color:#FFF;
+	background-color:#900;
+	padding:6px;
+	border:none;
+	}			
+/*RODAPÉ*/
+#rodape{
+	position:relative;
+	width:100%;	
+	height:auto;
+	padding-top:10px;
+	clear:both;
+	background-image:url(../imagens/imagem_rodape.png);
+	}
+.img_fundo_rodape{
+	position:absolute;
+	width:100%;
+	height:100%;
+	}		
+table.endereco{
+		padding:1%;
+		margin-top:2%;
+		text-align:left;
+		text-transform:none;		
+		font-size:15px;
+		font-family:arial;
+		color:#000;
+		background-color:#FFF;	
+		position:relative;
+		border-radius:20px;
+		}
+table.endereco td{
+	border-bottom:1px solid #999;
+	padding-bottom:5px;
+	padding-top:5px;
+	}
+			
+img.img_rede_social{
+	position:relative;
+	width:30px;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	cursor:pointer;
+	}
+	
+img.icone_rodape{
+	position:relative;
+	width:25px;
+	height:25px;
+	padding-left:10px;
+	padding-right:10px;	
+	}		
+footer h1.copyright{
+	font-size:12px;
+	font-family:Arial;
+	color:#FFF;		
+	padding-top:15px;
+	}
+footer h2.desenvolvimento{
+	font-size:11px;	
+	font-family:Arial;
+	color:#FFF;	
+	padding-bottom:5px;	
+	
+	}		
+	
+@media only screen and (max-width: 840px){
+	table#area_user .button_pesquisa{
+		text-align:right;			
+		}
+	.botao_login_cadastro{
+		padding:8px;
+		margin-left:15px;
+		margin-right:15px;	
+		}
+	nav#barra_pesquisa input[type=submit]{
+		font-size:13px;
+		margin-right:15px;
+		
+		}
+	nav#barra_pesquisa form.form_pesquisa input[type=text]{
+		width:90%;
+		margin-left:-3px;
+		}	
+	table.endereco{
+	font-size:14px;	
+		}
+		
+	footer h1.copyright{
+	font-size:10px;
+	}
+	footer h2.desenvolvimento{
+	font-size:9px;	
+		}	
+	}
+@media only screen and (max-width: 450px){
+	div.row, nav#barra_pesquisa, nav#barra_pesquisa{
+		font-size:12px;
+		}
+	table#area_user{
+		margin-left:0px;
+		margin-right:0px;
+		width:100%;
+		}	
+	.botao_dados_user{
+		margin:0px;	
+		}
+	table#area_user .button_pesquisa{
+		border-right:none;
+			
+		}
+	nav#barra_pesquisa form.form_pesquisa input[type=text]{	
+		padding-bottom:5px;
+		padding-top:5px;
+		font-size:11px;
+		}		
+	table#dados_user button.deslogar, table#dados_user button.meus_dados{
+		font-size:8px;
+		padding:5px;	
+		}
+	table#dados_user td.carrinho_compras img{
+		width:25px;
+		height:20px;	
+		}
+	table#dados_user td.carrinho_compras p.preco_carrinho{
+		font-size:10px;	
+		}			
+	table#area_user .area_pesquisa{
+		width:100%;	
+		}	
+	
+	.botao_login_cadastro{
+		padding:5px;
+		font-size:10px;
+		margin-right:2px;
+		margin-left:5px;
+		margin-top:5px;	
+		}
+	nav#barra_pesquisa input[type=submit]{
+		padding:8px;
+		padding-left:2px;
+		padding-right:2px;
+		font-size:10px;
+		margin-right:1px;
+		}		
+

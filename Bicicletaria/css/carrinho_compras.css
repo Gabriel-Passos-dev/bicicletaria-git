@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+section#carrinho_compras{
+	padding-bottom:20px;
+	padding-top:20px;
+	margin-bottom:20px;	
+	}
+table#carrinho_compras{
+	font-family:Arial;
+	border:none;
+	max-width:1200px;
+	margin-left:5px;
+	margin-right:5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#e9e9e9;
+	border-radius:5px;
+	}
+table#carrinho_compras td.carrinho_vazio{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px;
+	background-color:#fff;
+	color:#900;
+	border-bottom:1px solid #CCC;
+}	
+table#carrinho_compras tr.indice td{
+	background-color:#900;
+	color:#FFF;
+	padding:8px;
+	padding-left:20px;
+	padding-right:20px;
+	font-weight:bold;
+	font-size:15px;
+	text-align:center;
+	text-transform:uppercase;
+	border-left:1px solid #e9e9e9;
+	font-family:Arial;
+	border-radius:5px;
+	}	
+table#carrinho_compras tr.produtos td{
+	border-bottom:1px solid #999;
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px;
+	text-align:center;	
+	line-height:20px;
+	text-transform:uppercase;
+	}
+
+table#carrinho_compras tr td.td_espaco{
+	padding-top:10px;
+	padding-bottom:10px;
+	}	
+table#carrinho_compras tr td.form_pag_esq{
+	color:#FFF;
+	padding:10px;
+	padding-right:10px;
+	font-weight:bold;
+	font-size:15px;
+	text-align:right;
+	background-color:#030;	
+	
+	}
+	table#carrinho_compras tr td.form_pag_esq_dir{
+		background-color:#CAFFCA;
+		text-align:center;
+		font-size:15px;
+		padding:5px;
+		font-weight:bold;
+		color:#030;
+		width:200px;
+		}	
+	table#carrinho_compras tr td.frete{
+		background-color:#CCC;
+		font-size:15px;
+		font-weight:bold;
+		color:#900;
+		padding:10px;	
+		}
+table#carrinho_compras tr td.form_pag_dir{	
+	text-align:right;
+	background-color:#900;
+	color:#FFF;
+	font-size:15px;
+	font-family:arial;
+	font-weight:bold;	
+	padding:10px;
+	padding-right:10px;
+}
+	table#carrinho_compras tr td.form_pag_dir_dir{
+	background-color:#FFC1C1;
+	color:#900;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	font-family:arial;
+	}
+	
+table#carrinho_compras input[type=number]{
+	padding:8px;	
+	width:50px;
+	border-radius:3px;
+	font-size:14px;
+	border:1px solid #999999;
+	}
+				
+table#carrinho_compras select, .campo_frete{
+	border:1px solid #CCC;
+	border-radius:5px;
+	font-size:14px;
+	font-family:Arial;
+	padding:4px;
+	width:150px;
+	cursor:pointer;
+	}
+	.campo_frete{
+		cursor:text;	
+		}
+table#carrinho_compras option{
+	padding:5px;
+	background-color:#CCC;
+	color:#900;
+	font-weight:bold;
+	font-size:13px;	
+	}
+	
+table#carrinho_compras option.escolha{
+	background-color:#900;
+	color:#FFF;	
+	}	
+
+table#carrinho_compras tr.fim_table{
+	background-color:#CCC;	
+	}
+	a.excluir_produto{
+		padding:5px;
+		font-size:15px;
+		border-radius:5px;
+		color:#900;
+		cursor:pointer;
+		text-decoration:none;	
+		}
+table#carrinho_compras input.input_att/*botao está hidden*/, button.button_comprar, input.calc_frete{
+	margin:10px;
+	padding:10px;
+	border-radius:5px;
+	background-color:#900;
+	border:none;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;	
+	font-family:Arial;
+	cursor:pointer;
+	}
+	input.calc_frete{
+		margin:10px;
+		padding:10px;
+		border-radius:5px;
+		background-color:#520;
+		border:none;
+		font-size:14px;
+		font-weight:bold;
+		color:#fff;	
+		font-family:Arial;
+		cursor:pointer;
+	
+	}	
+	button.button_comprar{
+		background-color:#F30;
+		color:#fff;
+		}
+	
+table#carrinho_compras input.input_finish{
+	margin:10px;
+	padding:15px;
+	border-radius:5px;
+	background-color:#060;
+	border:none;
+	font-size:17px;
+	font-weight:bold;
+	color:#FFF;	
+	font-family:Arial;
+	cursor:pointer;
+}
+
+ #funcao_att input[name="update_cart"]{
+        display: none;
+    }

@@ -1,0 +1,255 @@
+footer{
+	margin-top:450px;	
+}
+
+/*areas e botoes das areas*/
+div#area_button{
+	width:600px;
+	margin-left:5%;
+	margin-right:5%;	
+	height:auto;
+	border-top:1px solid #CCC;
+	text-align:center;	
+	margin-top:45px;
+	margin-bottom:20px;	
+}
+
+div#area_button button{
+	padding:10px;
+	font:normal 16px arial;
+	background-color:#FFF;
+	border:1px solid #CCC;
+	color:#900;
+	margin-right:20px;
+	margin-left:20px;
+	cursor:text;
+	margin-top:-10%;
+}
+	div#area_button button#cesta{
+		background-color:#900;
+		color:#FFF;	
+	}
+
+div#area_acao div{
+	width:auto;
+	position:absolute;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:-1px;
+	height:400px;
+	padding:5px;	
+}
+#area_cesta, #area_entrega, #area_agradecimento, #area_pagamento{
+	border:1px solid #CCC;	
+	border-bottom:none;
+}
+#area_pagamento, #area_entrega, #area_agradecimento{
+	display:none;
+}
+#area_cesta{
+	display: block;	
+}
+	
+#area_pagamento h3, #area_cesta h3{
+	opacity:0;	
+}
+#area_entrega h3, #area_cesta h3, #area_agradecimento h3{
+	font-family:arial;
+	color:#900;
+	text-align:center;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:25px;
+	position:relative;	
+}
+button.button_prox, input.button_prox, button.button_ant, input.button_ant{
+	padding:8px;
+	background-color:#060;
+	color:#FFF;
+	text-align:bold;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	font:bold 15px arial;
+	margin-top:20px;	
+}
+button.button_ant, input.button_ant{
+	background-color:#900;
+	margin-right:10px;	
+}
+span.msg_input_vazio{
+	color:#900;
+	font:bold 14px arial;
+	color:#900;
+	padding:2px;
+	margin-left:2px;
+}
+/*tabela área carrinho*/
+table#carrinho_cesta{
+	padding:15px;
+	border-radius:5px;
+	font-family:arial;
+}
+table#carrinho_cesta tr.cabecalho td{
+	background-color:#900;
+	color:#FFF;	
+	padding:8px;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-left:1px solid #900;
+	text-align:center;
+}
+table#carrinho_cesta td.dados{
+	background-color:#FFF;
+	color:#666;
+	font-weight:bold;
+	font-size:16px;
+	padding:8px;
+	text-align:center;
+	border-bottom:1px solid #CCC;
+}
+table#carrinho_cesta td.totais{
+	background-color:#FFF;
+	color:#900;	
+	padding:8px;
+	font-weight:bold;
+}
+
+/*tabela área entrega*/
+table#dados_entrega{
+	border:none;
+	font-family:arial;
+	border-radius:5px;
+	padding:5px;
+}
+
+table#dados_entrega td.label{
+	color:#900;
+	padding:4px;
+	font-size:15px;
+	font-weight:bold;
+	text-align:right;
+	text-transform:uppercase;	
+}
+table#dados_entrega td.dado_td input, td.dado_td select, td.dado_td{
+	color:#000;
+	padding:4px;
+	font-size:14px;
+	text-align:left;	
+	font-family:arial;
+	text-transform:uppercase;
+	border:none;
+}
+	table#dados_entrega td.dado_td input[type="text"]{
+		width:300px;
+		
+	}
+
+
+/*área pagamento*/
+div#area_pagamento div#op_pagamento{
+	border:1px solid #999;
+	position:relative;
+	height:auto;
+	width:auto;
+	padding:5px;
+	margin-top:15px;	
+	font-family:arial;
+}
+
+div#area_pagamento label{
+	font-weight:bold;	
+	color:#900;
+}
+
+div#area_pagamento img{
+	width:90px;
+	height:50px;
+	margin-top:10px;	
+	margin-bottom:10px;	
+}
+
+table#form_pagamento{
+	font-size:15px;
+	width:auto;
+}
+table#form_pagamento tr td{
+	padding-right:10px;
+	text-align:center;
+	padding:8px;
+	border:1px solid #666;
+}
+div#opcao_cartao table#dados_cartao tr td input{
+	border-radius:5px;
+	padding:6px;	
+}
+div#area_pagamento div#opcao_cartao, div#area_pagamento div#opcao_boleto{
+	position:absolute;
+	width:auto;
+}
+div#area_pagamento div#opcao_cartao{
+	opacity:1;
+	z-index:1;
+}
+div#area_pagamento div#opcao_boleto{
+	opacity:0;
+}
+
+/*TABELA CARTAO*/
+table#dados_cartao{
+	font-family:arial;
+	margin-top:15px;	
+}
+table#dados_cartao tr td{
+	padding:8px;
+	font-size:15px;
+}
+table#dados_cartao tr td.cartao_esq{
+	border:none;
+	text-align:right;
+	margin-right:5px;
+	color:#900;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+table#dados_cartao tr td.cartao_dir{
+	border:1px solid #999;
+}
+table#dados_cartao tr td.cartao_dir input{
+	border:none;	
+}
+	td.cartao_dir input[type="number"], td.cartao_dir select{
+		border:1px solid #666;
+		padding:5px;
+		font:arial 15px solid;
+		color:#000;		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

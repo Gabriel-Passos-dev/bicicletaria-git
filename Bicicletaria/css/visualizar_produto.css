@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+section#area_visu_produto{
+	width:100%;
+	height:auto;
+	position:relative;
+	margin-top:10px;
+	margin-bottom:10px;	
+	border:none;
+	padding-bottom:10px;
+	}
+	
+	div.botao_back{
+		position:relative;
+		width:100%;
+		height:auto;
+		padding-top:5px;
+		padding-bottom:5px;
+		background-color:#CCC;
+		}
+	img.img_faixa{
+		width:100%;
+		margin-bottom:10px;
+		box-shadow:1px 3px 10px #003300;
+				
+		}		
+	img.botao_voltar{
+		position:relative;
+		width:40px;
+		height:40px;
+		margin-left:25px;
+		cursor:pointer;
+	}
+div.area_visu_imagem{
+	position:relative;
+	width:35%;
+	height:400px;
+	float:left;
+	margin-top:25px;
+	margin-left:12%;
+	margin-bottom:20px;
+	/*border-left:10px solid #900;*/
+	}
+div.imagens_produtos{
+	width:90%;
+	margin-left:5px;
+	margin-right:5px;
+	height:320px;
+	position:relative;
+	}		
+	img.img_visu_produto{
+		position:relative;
+		width:auto;
+		height:100%;
+		max-width:98%;		
+		max-height:290px;
+		min-height:290px;
+		margin-bottom:5px;
+		}
+div.area_visu_detalhes{
+	position:relative;
+	width:auto;
+	height:400px;
+	float:left;
+	margin-right:20px;
+	margin-top:25px;
+	padding-left:10px;
+	border-left:2px solid #ccc;
+	}
+div.area_preco_prod{
+	width:auto;
+	height:400px;
+	float:left;
+	margin-top:20px;
+	background-color:#FFF;
+	padding-right:10px;
+	padding-left:10px;
+	margin-bottom:20px;	
+	/*border-right:10px solid #900;*/
+	border-left:2px solid #ccc;
+	}
+	td.valor_prazo{
+		text-align:center;
+		font-family:Arial;
+		font-size:24px;
+		color:#114b5f;	
+		font-weight:bold;
+		}
+	table#valor_produto{
+		margin-top:30px;	
+		}		
+	table#valor_produto td{
+	padding-right:5px;
+		
+		}
+	td.texto_valor_padrao{
+	font-family:arial;
+	font-size:20px;
+	color:#900;
+	font-weight:bold;		
+		}
+	td.texto_valor_desconto{
+	font-family:arial;
+	font-size:20px;
+	color:#060;
+	font-weight:bold;		
+		}		
+	td.valor_produto_padrao{
+		font-size:20px;
+		font-family:Arial;
+		font-weight:bold;
+		text-decoration:line-through;
+		color:#900;
+		}	
+	td.valor_produto_final{
+		font-size:40px;
+		font-family:Arial;
+		font-weight:bold;
+		color:#060;
+		}	
+	td.sem_juros_desconto{
+		font-family:arial;
+		font-size:15px;
+		color:#C00;
+		font-weight:bold;
+		text-align:center;
+		}
+	td.valor_prazo{
+		color:#060;	
+		}	
+	td.vazio{
+		padding-top:10px;
+		padding-bottom:10px;
+		border-bottom:none;
+		}	
+
+div.desc_produto{
+	position:relative;
+	border:1px solid #666;
+	clear:both;
+	margin-left:15px;
+	margin-right:15px;
+	width:auto;
+	height:auto;
+	border-radius:5px;
+	
+}	
+		div.desc_produto p.texto_desc{
+			font-family:Arial;
+			font-size:17px;
+			color:#900;
+			line-height:20px;
+			text-align:left;
+			margin-left:20px;
+			margin-right:20px;
+			margin-top:25px;
+			margin-bottom:25px;
+			text-indent:25px;
+		}
+/*LISTA DESCRIÇÃO PRODUTOS*/
+ul#lista_espec_produtos li{
+	padding:6px;
+	margin-bottom:5px;
+	text-align:left;
+	font-family:Arial;
+	
+	}
+	p.sub_titulo{
+		font-family:arial;
+		font-size:16px;
+		font-weight:bold;
+		text-align:center;
+		text-transform:uppercase;
+		background-color:#E1E1E1;
+		color:#F60;
+		margin-bottom:5px;
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:5px;
+		padding:2px;
+	}
+	p.marca{
+		font-family:arial;
+		font-size:14px;
+		font-weight:bold;
+		text-align:center;
+		text-transform:uppercase;
+		color:#900;
+		margin-bottom:20px;
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top:5px;
+		}
+	ul#lista_espec_produtos li span.lado_esq{
+		background-color:#FFF;
+		color:#900;
+		padding:6px;
+		font-size:17px;
+		}
+	ul#lista_espec_produtos li span.lado_dir{
+		/*background-color:#E1E1E1;*/
+		background-color:#FFF;
+		color:#060;
+		font-size:16px;
+		padding-top:7px;
+		padding-bottom:7px;
+		padding-right:10px;
+		}	
+	button.cor_prod{
+		position:absolute;
+		padding:10px;
+		padding-bottom:5px;
+		padding-top:15px;
+		border:1px solid #CCC;
+		border-radius:5px;
+		position:relative;
+		margin-left:5px;
+		cursor:pointer;	
+		}
+/*BOTAO COMPRAR*/	
+button.button_comprar_prod{
+	padding:10px;
+	position:relative;
+	border-radius:5px;
+	border:1px solid #900;
+	background-color:#fff;
+	color:#900;
+	font-size:16px;
+	font-family:arial;
+	width:auto;
+	margin-left:5px;
+	margin-top:15px;
+	margin-bottom:10px;
+	}	
+button.button_comprar_prod:hover{
+	color:#fff;
+	background-color:#900;
+		}	
